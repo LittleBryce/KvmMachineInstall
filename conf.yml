@@ -1,0 +1,47 @@
+nodes:
+  node01:
+    ip: "172.26.5.66"
+    netmask: "255.255.255.0"
+    gateway: "172.26.5.254"
+    hostname: "node01"
+    os: "centos72"
+    memory: "60000"
+    vcpu: "20"
+    snapshot: "mostclean"
+    diskpath: "/mnt/disk1"
+    datadisks: {vdb: "100G", vdc: "100G"}
+  node02:
+    ip: "172.26.5.67"
+    netmask: "255.255.255.0"
+    gateway: "172.26.5.254"
+    hostname: "node02"
+    os: "centos72"
+    memory: "60000"
+    vcpu: "20"
+    snapshot: "mostclean"
+    diskpath: "/mnt/disk2"
+    datadisks: {vdb: "100G", vdc: "100G", vdd: "200G"}
+  node03:
+    ip: "172.26.5.68"
+    netmask: "255.255.252.0"
+    gateway: "172.26.5.254"
+    hostname: "node03"
+    os: "centos72"
+    memory: "30000"
+    vcpu: "6"
+    snapshot: "mostclean"
+    diskpath: "/mnt/disk3"
+    datadisks: {vdb: "100G", vdc: "100G"}
+  node04:
+    ip: "172.26.5.69"
+    netmask: "255.255.252.0"
+    gateway: "172.26.5.254"
+    hostname: "node04"
+    os: "centos72"
+    memory: "30000"
+    vcpu: "6"
+    snapshot: "mostclean"
+    diskpath: "/mnt/disk4"
+    datadisks: {vdb: "100G", vdc: "100G"}
+
+
